@@ -6,7 +6,7 @@ function Education({education}) {
 
         <div className="grid">
          {
-          education.map(()=>(
+          education.map((item)=>(
              <div className="card" key={ClipboardItem.degree}>
             <p className="year">{item.year}</p>
             <h3>{item.degree}</h3>

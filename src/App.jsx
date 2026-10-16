@@ -46,7 +46,7 @@ if (error) return<p className="status"> unable to load Portfolio</p>
         <Hero data={data}/>
         <About  data = {data} />
         <Skills skills={data.skills}/>
-        <Projects project = {data.project}/>
+        <Projects projects = {data.projects}/>
         <Education education = {data.education}/>
         <Contact email = {data.email} socials = {data.socials}/>
       </main>
